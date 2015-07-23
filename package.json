@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "benchmark-node-json-parse",
+  "description": "What is the fastest method to parse JSON files?",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://github.com/ahmadnassri/benchmark-node-json-parse",
+  "repository": "ahmadnassri/benchmark-node-json-parse",
+  "license": "MIT",
+  "bin": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "files": [
+    "index.js",
+    "fixture.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/benchmark-node-json-parse/issues"
+  },
+  "scripts": {
+    "pretest": "standard && echint",
+    "test": "node index"
+  },
+  "devDependencies": {
+    "beautify-benchmark": "^0.2.4",
+    "benchmark": "^1.0.0",
+    "chalk": "^1.1.0",
+    "clarinet": "^0.11.0",
+    "jju": "^1.2.0",
+    "json-parse-stream": "0.0.2",
+    "jsonparse": "^1.0.0",
+    "vuvuzela": "^1.0.1"
+  }
+}
