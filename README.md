@@ -53,26 +53,6 @@
   json-parse-stream x    429 ops/sec ±2.39% (77 runs sampled)
 ```
 
-### `io.js v1.x.x`
-
-###### Fastest
-```
-  JSON.parse        x 49,677 ops/sec ±2.88% (87 runs sampled)
-```
-###### Slowest
-```
-  json-parse-stream x    356 ops/sec ±2.71% (75 runs sampled)
-```
-###### Results
-```
-  JSON.parse        x 49,677 ops/sec ±2.88% (87 runs sampled)
-  vuvuzela          x  9,462 ops/sec ±1.24% (89 runs sampled)
-  jju               x  4,458 ops/sec ±1.18% (87 runs sampled)
-  jsonparse         x    490 ops/sec ±1.93% (72 runs sampled)
-  clarinet          x    404 ops/sec ±3.40% (74 runs sampled)
-  json-parse-stream x    356 ops/sec ±2.71% (75 runs sampled)
-```
-
 ### `io.js v2.x.x`
 
 ###### Fastest
@@ -91,4 +71,24 @@
   json-parse-stream x    417 ops/sec ±3.29% (73 runs sampled)
   clarinet          x    415 ops/sec ±2.22% (77 runs sampled)
   jsonparse         x    511 ops/sec ±1.73% (75 runs sampled)
+```
+
+### `io.js v1.x.x`
+
+###### Fastest
+```
+  JSON.parse        x 49,677 ops/sec ±2.88% (87 runs sampled)
+```
+###### Slowest
+```
+  json-parse-stream x    356 ops/sec ±2.71% (75 runs sampled)
+```
+###### Results
+```
+  JSON.parse        x 49,677 ops/sec ±2.88% (87 runs sampled)
+  vuvuzela          x  9,462 ops/sec ±1.24% (89 runs sampled)
+  jju               x  4,458 ops/sec ±1.18% (87 runs sampled)
+  jsonparse         x    490 ops/sec ±1.93% (72 runs sampled)
+  clarinet          x    404 ops/sec ±3.40% (74 runs sampled)
+  json-parse-stream x    356 ops/sec ±2.71% (75 runs sampled)
 ```
