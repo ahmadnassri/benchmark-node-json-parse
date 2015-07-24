@@ -11,7 +11,9 @@ var clarinet = require('clarinet')
 var jju = require('jju')
 var Jsonparse = require('jsonparse')
 var JsonParseStream = require('json-parse-stream')
+var streamJson = require('stream-json')
 var vuvuzela = require('vuvuzela')
+
 // test
 var json = fs.readFileSync('fixture.json').toString()
 
@@ -70,6 +72,20 @@ new Benchmark.Suite()
             deferred.resolve()
           }
         })
+    }
+  })
+
+  .add({
+    name: 'stream-json',
+    defer: true,
+    fn: function (deferred) {
+      var source = streamJson()
+
+      source.on('end', function () {
+        deferred.resolve()
+      })
+
+      fs.createReadStream('fixture.json').pipe(source.input)
     }
   })
 
