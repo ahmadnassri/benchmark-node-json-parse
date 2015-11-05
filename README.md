@@ -13,6 +13,28 @@
 
 ## Results
 
+
+### `Node.js v4.2.x`
+
+###### Fastest
+```
+  JSON.parse        x 68.28 ops/sec ±4.43% (59 runs sampled)
+```
+###### Slowest
+```
+  stream-json       x  2.75 ops/sec ±7.05% (18 runs sampled)
+```
+###### Results
+```
+  JSON.parse        x 68.28 ops/sec ±4.43% (59 runs sampled)
+  vuvuzela          x 14.38 ops/sec ±4.32% (40 runs sampled)
+  jsonparse         x  6.39 ops/sec ±12.12% (20 runs sampled)
+  jju               x  6.08 ops/sec ±15.54% (20 runs sampled)
+  clarinet          x  5.56 ops/sec ±2.93% (32 runs sampled)
+  json-parse-stream x  4.91 ops/sec ±3.03% (28 runs sampled)
+  stream-json       x  2.75 ops/sec ±7.05% (18 runs sampled)
+```
+
 ### `Node.js v0.12.x`
 
 ###### Fastest
