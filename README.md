@@ -3,9 +3,9 @@
 ## Libraries Tested
 
 - [clarinet](https://www.npmjs.com/package/clarinet) `v0.11.0`
-- [jju](https://www.npmjs.com/package/jju) `v1.2.0`
+- [jju](https://www.npmjs.com/package/jju) `v1.2.1`
 - [json-parse-stream](https://www.npmjs.com/package/json-parse-stream) `v0.0.2`
-- [jsonparse](https://www.npmjs.com/package/jsonparse) `v1.0.0`
+- [jsonparse](https://www.npmjs.com/package/jsonparse) `v1.2.0`
 - [stream-json](https://www.npmjs.com/package/stream-json) `v0.4.0`
 - [vuvuzela](https://www.npmjs.com/package/vuvuzela) `v1.0.1`
 
