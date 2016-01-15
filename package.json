@@ -26,7 +26,7 @@
     "benchmark": "^1.0.0",
     "chalk": "^1.1.1",
     "clarinet": "^0.11.0",
-    "echint": "^1.5.0",
+    "echint": "^1.5.1",
     "jju": "^1.2.1",
     "json-parse-stream": "0.0.2",
     "jsonparse": "^1.2.0",
