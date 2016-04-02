@@ -23,14 +23,14 @@
   },
   "devDependencies": {
     "beautify-benchmark": "^0.2.4",
-    "benchmark": "^1.0.0",
-    "chalk": "^1.1.1",
+    "benchmark": "^2.1.0",
+    "chalk": "^1.1.3",
     "clarinet": "^0.11.0",
-    "echint": "^1.5.0",
-    "jju": "^1.2.1",
+    "echint": "^1.5.3",
+    "jju": "^1.3.0",
     "json-parse-stream": "0.0.2",
     "jsonparse": "^1.2.0",
-    "stream-json": "^0.4.0",
-    "vuvuzela": "^1.0.1"
+    "stream-json": "^0.4.1",
+    "vuvuzela": "^1.0.2"
   }
 }

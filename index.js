@@ -104,8 +104,8 @@ new Benchmark.Suite()
   .on('complete', function () {
     benchmarks.log()
 
-    console.log('Fastest is %s', chalk.green(this.filter('fastest').pluck('name')))
-    console.log('Slowest is %s', chalk.red(this.filter('slowest').pluck('name')))
+    console.log('Fastest is %s', chalk.green(this.filter('fastest').map('name')))
+    console.log('Slowest is %s', chalk.red(this.filter('slowest').map('name')))
   })
 
   .run({
