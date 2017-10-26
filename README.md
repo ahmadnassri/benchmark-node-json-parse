@@ -13,6 +13,49 @@
 
 ## Results
 
+### `Node.js v8.8.1` *(Oct, 26, 2017)*
+
+###### Fastest
+```
+  JSON.parse        x 64,115 ops/sec ±1.18% (91 runs sampled)
+```
+###### Slowest
+```
+  json-parse-stream x  1,390 ops/sec ±2.06% (76 runs sampled)
+```
+###### Results
+```
+  clarinet          x  3,789 ops/sec ±3.69% (71 runs sampled)
+  JSON.parse        x 64,115 ops/sec ±1.18% (91 runs sampled)
+  jju               x  3,448 ops/sec ±1.18% (89 runs sampled)
+  jsonparse         x  9,231 ops/sec ±2.08% (77 runs sampled)
+  json-parse-stream x  1,390 ops/sec ±2.06% (76 runs sampled)
+  stream-json       x  2,956 ops/sec ±2.71% (77 runs sampled)
+  vuvuzela          x  7,895 ops/sec ±1.31% (87 runs sampled)
+  fast-json-parse   x 62,399 ops/sec ±1.26% (90 runs sampled)
+```
+
+### `Node.js v6.11.5` *(Oct, 26, 2017)*
+
+###### Fastest
+```
+  JSON.parse        x 70,610 ops/sec ±0.96% (91 runs sampled)
+```
+###### Slowest
+```
+  json-parse-stream x  1,540 ops/sec ±1.77% (80 runs sampled)
+```
+###### Results
+```
+  clarinet          x  1,492 ops/sec ±18.18% (74 runs sampled)
+  JSON.parse        x 70,610 ops/sec ±0.96% (91 runs sampled)
+  jju               x  8,318 ops/sec ±1.01% (89 runs sampled)
+  jsonparse         x  7,669 ops/sec ±2.46% (68 runs sampled)
+  json-parse-stream x  1,540 ops/sec ±1.77% (80 runs sampled)
+  stream-json       x  1,651 ops/sec ±1.84% (76 runs sampled)
+  vuvuzela          x 14,260 ops/sec ±0.55% (94 runs sampled)
+  fast-json-parse   x 68,303 ops/sec ±1.58% (88 runs sampled)
+```
 
 ### `Node.js v5.7.x` *(Apr, 02, 2016)*
 
