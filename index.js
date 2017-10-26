@@ -13,6 +13,7 @@ var Jsonparse = require('jsonparse')
 var JsonParseStream = require('json-parse-stream')
 var streamJson = require('stream-json')
 var vuvuzela = require('vuvuzela')
+var fastJsonParse = require('fast-json-parse')
 
 // test
 var json = fs.readFileSync('fixture.json').toString()
@@ -93,6 +94,13 @@ new Benchmark.Suite()
     name: 'vuvuzela',
     fn: function () {
       vuvuzela.parse(json)
+    }
+  })
+
+  .add({
+    name: 'fast-json-parse',
+    fn: function () {
+      fastJsonParse(json)
     }
   })
 
